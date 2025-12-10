@@ -1,23 +1,110 @@
-# ✨ Welcome to Your Spark Template!
-You've just launched your brand-new Spark Template Codespace — everything’s fired up and ready for you to explore, build, and create with Spark!
+# 🏋️ FitTrack - Smart Workout Tracker
 
-This template is your blank canvas. It comes with a minimal setup to help you get started quickly with Spark development.
+FitTrack is a comprehensive workout tracking application that helps you plan workouts, track progress, and improve your fitness journey with AI-powered form feedback.
 
-🚀 What's Inside?
-- A clean, minimal Spark environment
-- Pre-configured for local development
-- Ready to scale with your ideas
-  
-🧠 What Can You Do?
+## ✨ Features
 
-Right now, this is just a starting point — the perfect place to begin building and testing your Spark applications.
+### 🎯 Workout Plans
+- Create and organize custom workout plans
+- Add multiple exercises with sets, reps, and weight targets
+- Edit and manage your workout library
+- Quick-start workouts from your saved plans
 
-🧹 Just Exploring?
-No problem! If you were just checking things out and don’t need to keep this code:
+### 📚 Exercise Library
+- Searchable database of exercises with detailed instructions
+- Filter by muscle group and difficulty level
+- View form cues and proper technique
+- Add exercises directly to your workout plans
 
-- Simply delete your Spark.
-- Everything will be cleaned up — no traces left behind.
+### 💪 Active Workout Tracking
+- Real-time workout session tracking
+- Log completed sets with reps and weight
+- Visual progress indicators
+- Resume incomplete workouts
+- Timer for rest periods
 
-📄 License For Spark Template Resources 
+### 🤖 AI-Powered Form Feedback
+- Get personalized form tips during workouts
+- Ask questions about exercise technique
+- Receive instant feedback to improve your form
+- Prevent injuries with proper guidance
 
-The Spark Template files and resources from GitHub are licensed under the terms of the MIT license, Copyright GitHub, Inc.
+### 📊 Progress Tracking
+- Visual charts showing workout history
+- Track volume trends over time
+- Monitor personal records
+- View detailed workout logs
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/esmcelroy/workout-tracker-coach.git
+cd workout-tracker-coach
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+### Running Linter
+
+```bash
+npm run lint
+```
+
+## 🛠️ Tech Stack
+
+- **Framework**: React 19 with TypeScript
+- **Build Tool**: Vite
+- **UI Components**: Radix UI primitives
+- **Styling**: Tailwind CSS v4
+- **Animations**: Framer Motion
+- **State Management**: React hooks + GitHub Spark KV storage
+- **Charts**: Recharts
+- **Icons**: Phosphor Icons
+- **Forms**: React Hook Form with Zod validation
+
+## 📱 Features Overview
+
+### Storage
+All workout data is stored locally using GitHub Spark's KV storage (browser local storage), which persists data in your browser without requiring a backend or user accounts. Note that data is specific to your browser and device.
+
+### Responsive Design
+- Desktop: Full tabbed interface with comprehensive views
+- Mobile: Bottom navigation bar optimized for thumb access
+- Touch-friendly controls and large tap targets on mobile
+
+### Design Philosophy
+The interface is designed to be motivating, clear, and efficient - getting out of your way during workouts while providing rich insights when reviewing progress.
+
+## 🎨 Design System
+
+- **Primary Color**: Deep Energetic Blue - Conveys trust and focus
+- **Accent Color**: Vibrant Lime Green - Highlights achievements and progress
+- **Typography**: Inter font family for athletic, modern feel
+- **Animations**: Snappy, purposeful motion that celebrates achievements
+
+## 📄 License
+
+This project uses the MIT License. The Spark Template files and resources from GitHub are licensed under the terms of the MIT license, Copyright GitHub, Inc.
