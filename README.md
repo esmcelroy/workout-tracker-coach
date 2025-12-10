@@ -88,7 +88,7 @@ npm run lint
 ## 📱 Features Overview
 
 ### Storage
-All workout data is stored locally using GitHub Spark's KV storage, ensuring your data persists across sessions without requiring a backend or user accounts.
+All workout data is stored locally using GitHub Spark's KV storage (browser local storage), which persists data in your browser without requiring a backend or user accounts. Note that data is specific to your browser and device.
 
 ### Responsive Design
 - Desktop: Full tabbed interface with comprehensive views
